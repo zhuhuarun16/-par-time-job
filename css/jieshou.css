@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ background-color:#E0EFED;}
+a{ text-decoration:none;display:block;}
+.clear{ clear:both;}
+.content{ width:1000px; height:975px; margin:auto auto;margin-top:10px; background-color:#FFF;}
+.header{width:1000px;height:30px; border-bottom:1px solid #090; background-color:#F8FDFE;}
+.information{ width:1000px; height:920px; background-color:#FFF; margin-top:20px;}
+.information .jianzhi_ct{ width:795px; height:920px; border-right:2px dotted #CCCCCC; float:left; overflow:auto;}
+.jianzhi_ct .jianzhi_center{ width:700px; height:845px; margin:auto auto;}
+.jianzhi_ct .zhuti{ width:700px; height:50px; border-bottom:1px dashed #CCCCCC;	}
+.zhuti h2{color: #6C6; font-size:30px; float:left; line-height:50px;}
+.zhuti span{ float:left; margin-left:200px; color:#999; line-height:50px; font-size:14px;}
+.zhuti span label{ margin-right:52px;}
+.jianzhi_ct ul{ list-style-type:none; margin-top:30px;}
+.jianzhi_ct ul li{ width:700px; height:30px; line-height:30px; margin-top:10px;}
+.jianzhi_ct .jianjie span{ float:left; color:#999; margin-right:15px;}
+.jianzhi_ct .jianjie .border{ width:1px; height:14px; margin-top:8px; background-color:#CCC;}
+.jianzhi_ct .renzheng span{ float:left; margin-right:20px; height:25px; line-height:25px; font-size:14px;
+                           border:1px solid #6C6; color:#6C6; padding:0 10px;}
+.jianzhi_ct ul h3{ color:#999;}
+.jianzhi_ct ul p{ margin-top:10px; color: #666; font-size:15px;}
+.jianzhi_bm{ width:700px; height:60px; background-color:#F8FDFE;}
+.jianzhi_bm input{ font-size:25px; line-height:40px; float:left; margin-right:50px ;height:40px;
+               text-align:center; border:none; margin-top:10px;}
+.jianzhi_bm .but_baoming{ width:130px; background-color:#F60; }
+.jianzhi_bm .but_shoucang{ width:130px; background-color: #0C0;}
+.jianzhi_bm .but_jubao{ width:65px; background-color:#CCC;}
+.jianzhi_ct ul span label{ color:#06F; margin-right:20px;}
+.jianzhi_ct .shuru{ width:650px; height:100px; padding:10px;font-size:15px;}
+.jianzhi_ct .sub_li{ margin-top:90px;}
+.sub_li .sub{ width:70px; height:25px; line-height:25px; font-size:14px;}
+.sub_li label{ color:#999;}
+.information .tuijian{ width:200px; height:730px; float:left;}
+.tuijian .tuiguang{ width:180px; height:640px; margin:auto auto; background-color: #70BEFE;}
+.tuiguang_ct{ width:110px; height:638px; margin:auto auto; color:#FFF; border:1px solid #70BEFE;}
+.tuiguang_ct span{ margin-top:10px; font-size:12px; display:block;}
+.tuiguang_ct span label{ margin-right:10px;}
+
+
+
+
+

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+body{ background-color:#E0EFED;}
+a{ text-decoration:none;display:block;}
+.clear{ clear:both;}
+.content{ width:1000px; height:1550px; margin:auto auto;margin-top:10px; background-color:#FFF;}
+.zhuti{width:1000px;height:60px; border-bottom:1px solid #090;}
+.zhuti img{ width:100px; height:50px;float:left; margin-top:5px; margin-left:20px;}
+.zhuti h2{ font-family:"华文彩云"; display:block;width:150px; height:60px; text-align:center; line-height:60px; float:left;}
+.information{ width:1000px; height:1450px; background-color:#FFF; margin-top:20px;}
+.information .help_ct{ width:795px; height:1450px; border-right:2px dotted #CCCCCC; float:left; overflow:auto;}
+.help_ct .date{ width:795px; height:30px; border-bottom:1px dashed #CCCCCC;}
+.date span{ float:left; font-size:14px; color:#CCC; margin-left:20px;}
+.date span a{ float:right; color:#06F;}
+.help_ct .content{ width:700px; height:1350px; border:5px double #999999; margin:auto auto; margin-top:30px;                   background-color:#F8F8F5;}
+.content h2{ text-align:center; margin-top:10px;}
+.content ul{ list-style-type:none; color:#999; font-size:15px; margin-left:30px; margin-top:30px;}
+.content ul li{ padding:5px 0px;}
+.content ul h3{ color:#09F;}
+.information .tuijian{ width:200px; height:730px; float:left;}
+.tuijian .tuiguang{ width:180px; height:640px; margin:auto auto; background-color: #70BEFE;}
+.tuiguang_ct{ width:110px; height:638px; margin:auto auto; color:#FFF; border:1px solid #70BEFE;}
+.tuiguang_ct span{ margin-top:10px; font-size:12px; display:block;}
+.tuiguang_ct span label{ margin-right:10px;}
+

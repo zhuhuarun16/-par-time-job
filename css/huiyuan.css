@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ background-color:#E0EFED;}
+a{ text-decoration:none;display:block;}
+.clear{ clear:both;}
+.content{ width:1000px; height:820px; margin:auto auto;margin-top:10px; background-color:#FFF;}
+.zhuti{width:1000px;height:60px; border-bottom:1px solid #090;}
+.zhuti img{ width:100px; height:50px;float:left; margin-top:5px; margin-left:30px;}
+.zhuti h2{ font-family:"华文彩云"; display:block;width:150px; height:60px; text-align:center; line-height:60px; float:left;}
+.information{ width:1000px; height:830px; background-color:#FFF; margin-top:20px;}
+.information .huiyuan{ width:795px; height:730px; border-right:2px dotted #CCCCCC; float:left; overflow:auto;}
+.huiyuan>ul{ list-style-type:none; width:795px; height:80px; border-bottom:2px dotted #CCCCCC; margin-top:10px;}
+.huiyuan .touxiang{ width:70px; height:70px; float:left; border:1px solid #CCC; margin-left:10px;}
+.huiyuan .xinxi{ width:700px; height:60px; float:left;}
+.huiyuan ul li{ width:720px; height:40px;}
+.huiyuan ul li span{ font-size:15px;}
+.huiyuan ul .li_1 span{ float:left; line-height:40px; color:#999; margin-left:20px;}
+.huiyuan ul .li_1 span a{ color:#84B6EC; font-size:30px; font-family:"华文行楷";}
+.huiyuan ul .li_2 span{ float:left; line-height:40px; color:#999; margin-left:20px;}
+.information .tuijian{ width:200px; height:730px; float:left;}
+.tuijian .tuiguang{ width:180px; height:640px; margin:auto auto; background-color: #70BEFE;}
+.tuiguang_ct{ width:110px; height:638px; margin:auto auto; color:#FFF; border:1px solid #70BEFE;}
+.tuiguang_ct span{ margin-top:10px; font-size:12px; display:block;}
+.tuiguang_ct span label{ margin-right:10px;}

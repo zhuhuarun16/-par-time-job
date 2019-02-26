@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ background-color:#E0EFED;}
+a{ text-decoration:none;display:block;}
+.clear{ clear:both;}
+.center{ width:1200px; height:1200px; margin:auto auto;}
+.theme{ width:1200px;; height:130px; background:url(../images/theme.png); background-size:cover; 
+      border:1px solid #F4F7F4; }
+.theme_content{ width:1000px; height:100px; margin:auto auto; margin-top:15px;}
+.theme_i{ width:125px; height:100px; float:left; background:url(../images/theme_i.gif); background-size:cover;}
+.theme_t{ width:210px; height:100px;text-align:center; line-height:100px; float:left; font-family:"华文彩云";
+          color: #000; text-shadow:2px 7px 2px #666666;}
+.line{ width:1px; height:26px; background-color: #FFF; float:left; margin-top:40px; margin-left:20px;}
+.search{ width:400px; height:50px;float:left; margin:25px 0px 25px 230px; 
+        background-color: #F4F2F0;}
+.search_border{ border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;-ms-border-radius:10px;}
+.search_content{ width:390px; height:40px; border:1px solid #F7FDFD; margin:5px auto; background-color:#FFF;}
+.search_content .search_im{ width:25px; height:30px; background:url(../images/seach_i.gif); background-size:cover;
+                           float:left; margin:5px 10px 5px 10px;}
+.search_content .search_input{ width:250px; height:30px; margin-top:5px; float:left;}
+.search_input .s_input{width:250px; height:30px; border-style:none;}
+.search_content .search_bg{ width:95px; height:40px; background-color: #C96; float:left; border-bottom-left-radius:0px;
+                             border-top-left-radius:0px; text-align:center; line-height:40px;}
+.search_bg a{ color:#333; font-size:24px; font-family:"华文行楷";}
+.search_bg a:hover{ color: #FF0; font-family:"微软雅黑";}
+.body_content{ width:1000px; height:1010px; margin:auto auto;}
+.body_content .nav{ width:1000px; height:50px; background-color: #CCC;}
+.nav ul{ width:1000px; height:50px; list-style-type:none; text-align:center; overflow: auto }
+.nav li{  height:50px; float:left; line-height:50px; overflow:hidden;} 
+.nav li a{ color:#000; height:50px; padding:0 80px; font-size:20px;}
+.nav li a:hover{  color:#FFF; font-family:"华文行楷";}
+.content{ width:1000px; height:600px; margin-top:20px;}
+.content .ranking{ width:220px; height:600px; border:1px solid #CCC; float:left; background-color: #FBFDFF;}
+.ranking_te{ width:100%; height:50px; background-color: #09C; text-align:center; line-height:50px; color:#FFF;}
+.ranking_ct{ width:100%; height:550px; border-left:3px solid #09C; padding:1px;}
+.ranking_ct ol{ width:150px; height:500px; margin:25px 0px 25px 60px;}
+.ranking_ct ol li{ width:150px;; height:25px;font-size: 12px;}
+.ranking_ct ol li .aa{ color: blue; text-decoration: none;display:inline;}
+.ranking_ct ol li .aaa{ text-decoration: none; color: black;display:inline;}
+.right_content{ width:750px; height:600px; float:left; margin-left:25px;}
+.jianzhi{ width:100%; height:285px; border:1px solid #CCC; background-color:#F9FDFB;}
+.jianzhi_te{ width:100%; height:48px; border-top:3px solid #096; border-bottom:1px solid #CCC;}
+.jianzhi_mo{ width:529px; height:100%; float:left; font-size:12px; color:#096; line-height:48px;}
+.jianzhi_mo a{ display:block; float:left; color:#096; margin-left:400px;}
+.jianzhi_mo span a{ display:block; float:left; margin-left:15px;}
+.jianzhi_na{ width:220px; height:100%; border-left:1px solid #CCC; background-color:#096; float:left;
+            text-align:center; line-height:48px; color:#FFF;}
+.jianzhi_ct{ width:100%; height:233px;}
+.jianzhi_list{ width:529px; height:100%; float: left;}
+.jianzhi_list ul{ float:left; width:235px; height:216px; margin-left:20px; margin-top:15px;}
+.jianzhi_list ul li{ width:235px; height:25px; line-height:25px; overflow:hidden; font-size:15px;}
+.jianzhi_list ul li a{ color:#666}
+.jianzhi_list ul li a:hover{ color:#096;}
+.jianzhi_list ul li a label{ margin-left:5px;}
+.jianzhi_need{ width:219px; height:100%; float:left; border-left:1px solid #CCC;}
+.jianzhi_need ul{ list-style-type:none; float:left;}
+.jianzhi_need ul li a{ display:block; padding:18px 10px; text-align:center; color:#096;}
+.jianzhi_need ul li a:hover{ border-bottom:1px solid #096;}
+.huzhu{ width:750px; height:285px; margin-top:25px; border:1px solid #CCC; background-color:#FFF;}
+.huzhu_te{ width:100%; height:48px; border-top:3px solid #C96; border-bottom:1px solid #CCC;}
+.huzhu_na{width:220px; height:100%; border-right:1px solid #CCC; background-color:#C96; float:left;
+            text-align:center; line-height:48px; color:#FFF;}
+.huzhu_mo{ width:529px; height:100%; float:left; font-size:12px; color:#C96; line-height:48px;}
+.huzhu_mo a{ display:block; float:left; color:#C96; margin-left:15px;}
+.huzhu_mo span a{ display:block; float:left; margin-left:400px;}
+.huzhu_ct{ width:100%; height:233px;}
+.huzhu_list{ width:529px; height:100%; float: left;}
+.huzhu_list ul{ float:left; width:235px; height:216px; margin-left:20px; margin-top:15px;}
+.huzhu_list ul li{ width:235px; height:25px; line-height:25px; overflow:hidden; color: #666; font-size:15px;}
+.huzhu_list ul li a{ color:#666}
+.huzhu_list ul li a:hover{ color:#C96;}
+.huzhu_list ul li a label{ margin-left:5px;}
+.huzhu_need{ width:219px; height:100%; float:left; border-right:1px solid #CCC;}
+.huzhu_need ul{ list-style-type:none; float:left;}
+.huzhu_need ul li a{ display:block; padding:18px 22px; text-align:center; color:#C96;}
+.huzhu_need ul li a:hover{ border-bottom:1px solid #C96;}
+.body_content .huiyuan{ width:1000px; height:300px; margin-top:25px; background-color:#FFF;}
+.huiyuan_na { width:100%; height:50px; background-color:#f9f9f9; line-height:50px;}
+.huiyuan_na label{ display:block; float:left; margin-left:10px;}
+.huiyuan_na span a{ display:block; float:left; margin-left:850px; color:#999; font-size:14px;}
+.huiyuan_ct{ width:998px; height:250px; border:1px solid #999;}
+.huiyuan_ct ul{ list-style-type:none;}
+.huiyuan_ct>ul>li{ height:230px; width:235px; float:left; margin-top:10px; margin-left:10px;}
+.huiyuan_border{border:1px solid #CCC;}
+.huiyuan_ct .huiyuan_border img{ width:235px; height:230px;}
+.huiyuan_i1{ width:235px; height:110px;}
+.huiyuan_i2{ width:235px; height:110px; margin-top:10px;}
+.huiyuan_i1_1{ height:108px; width:110px; float:left;border:1px solid #CCC;}
+.huiyuan_i1_1 img{height:108px; width:110px;}
+.huiyuan_i1_2{ height:108px; width:110px; float:left; margin-left:10px; border:1px solid #CCC;}
+.huiyuan_i1_2 img{height:108px; width:110px;}

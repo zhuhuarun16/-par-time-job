@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Release requirements </title>
+<link type="text/css" href="css/fabu.css" rel="stylesheet"/>
+</head>
+
+<body>
+<iframe src="header.html" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="67px;">
+</iframe>
+<div class="content">
+    <div class="header"><h2>发布需求</h2></div>
+    <div class="leixing">
+        <a href="#" id="" class="xuqiu" name="f"  onclick="f_click(0)" style="border-bottom:4px solid #85B0DC; 
+           color:#157DD2;"><strong>兼职模式需求</strong>
+        </a>
+        <a href="#" id="" class="xuqiu" name="f"  onclick="f_click(1);"><strong>互助模式需求</strong></a>
+    </div>
+    <div class="xuqiu_ct">
+         <div class="tishi">
+            <img src="images/tishi.png"/>
+            <div class="tishi_ct">
+                <p>据统计，要求明确的职位招聘效果平均提升1.5倍以上！</span>
+                <p>&#8226;<label>职位要求越明确，搜索排名越靠前</label></p>
+                <p>&#8226;<label>有助于系统更精准的为您推荐简历。</label></p>
+                <p>&#8226;<label>减少无效简历投递，减轻筛选压力。</label></p>
+            </div>
+         </div>
+         <div class="xuzhi"><a href="#">发布兼职须知</a></div>
+         <div class="jianzhi" name="sub_f" >
+              <span style="margin-top:50px;">
+                    <label>*</label>兼职名称：<input type="text" placeholder="请输入名称" class="inpu"/>
+              </span>
+              <span><label>*</label>招聘单位：<input type="text" placeholder="请输入名称" class="inpu"/></span>
+              <span><label>*</label>类型类别：<input type="text" placeholder="请选择" class="inpu"/></span>
+              <span><label>*</label>地区地址：<input type="text" placeholder="请选择" class="inpu"/></span>
+              <span><label>*</label>结算方式：
+                    <input type="radio"  name="jiesuan" value="0" checked/><label class="xuanze">/小时</label>
+                    <input type="radio"  name="jiesuan" value="1"/><label class="xuanze">/天</label>
+                    <input type="radio"  name="jiesuan" value="2"/><label class="xuanze">/月</label>
+                    <input type="radio"  name="jiesuan" value="3"/><label class="xuanze">/次</label>
+              </span>
+              <span><label>*</label>价值待遇：<input type="text" class="daiyu" placeholder="请输入待遇"/></span>
+              <span><label>*</label>招聘人数：<input type="text" class="daiyu" placeholder="请输入人数"/></span>
+              <span><label>*</label>是否面试：
+                    <select>
+                        <option>面试</option>
+                        <option>无须面试</option>
+                    </select>
+              </span>
+              <span><label>*</label>岗位职责：</span>
+              <span>
+                 <textarea id="zhize" class="shuru" style="color:#999;" onBlur="if(value==''){value='请输入岗位职责...';                  this.style.color='#999'}" onFocus="if(value=='请输入岗位职责...'){value=''; this.style.color='#666'}">
+                 </textarea>
+              </span>
+              <span><label>*</label>岗位要求：</span>
+              <span>
+                 <textarea id="yaoqiu" class="shuru" style="color:#999;" onBlur="if(value==''){value='请输入岗位要求...';                  this.style.color='#999'}" onFocus="if(value=='请输入岗位要求...'){value=''; this.style.color='#666'}">
+                 </textarea>
+              </span>
+              <span><button>确认发布</button></span>
+         </div>
+         <div class="huzhu" name="sub_f" style="display:none">222</div>
+    </div>
+    <hr style=" border-color:#DCF5EB; margin-top:25px;"/>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="150px;">
+</iframe>
+<!--js点击按钮控制模块改变-->
+<script type="text/javascript">
+     var ft=document.getElementsByName("f");
+     var divft=document.getElementsByName("sub_f");
+     function f_click(q)
+     {
+            for(var r=0;r<ft.length;r++)    
+            {
+                 if(r != q)
+                 {
+                    divft[r].style.display="none";
+                 }
+                 else
+                 {
+                      divft[r].style.display="block";
+                 }  
+            } 
+     }  
+</script>
+<script type="text/javascript">
+ document.getElementById('zhize').value="请输入岗位职责...";
+ document.getElementById('yaoqiu').value="请输入岗位要求...";
+</script>
+</body>
+</html>
